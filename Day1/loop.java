@@ -1,0 +1,27 @@
+package Day1;
+public class loop {
+    // main method to demonstrate different types of loops in Java
+    public static void main(String[] args) {
+        // For loop
+        System.out.println("For Loop:");
+        for (int i = 1; i <= 5; i++) {
+            System.out.println("Iteration: " + i);
+        }
+
+        // While loop
+        System.out.println("\nWhile Loop:");
+        int j = 1;
+        while (j <= 5) {
+            System.out.println("Iteration: " + j);
+            j++;
+        }
+
+        // Do-while loop
+        System.out.println("\nDo-While Loop:");
+        int k = 1;
+        do {
+            System.out.println("Iteration: " + k);
+            k++;
+        } while (k <= 5);
+    }
+}
